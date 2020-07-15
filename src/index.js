@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDisplay from './SeasonDisplay';
-import Loader from './Loader';
 
 class App extends React.Component {
 
@@ -28,7 +27,6 @@ class App extends React.Component {
         else if (!this.state.errmsg && this.state.lat) {
             return <SeasonDisplay lat={this.state.lat} />
         }
-        return <Loader msg="Please accept location request" />
 
     }
 
