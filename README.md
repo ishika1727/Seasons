@@ -1,4 +1,4 @@
-### Seasons
+### Yet another Weather App
 
 Basic react app which displays season by taking location and month of the year in users' location.
 
